@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MySaaS</title>
+  <style>
+    body { font-family: Arial; margin:0; background:#f9fafb; text-align:center; }
+
+    header, footer {
+      padding:20px;
+      background:#2563eb;
+      color:#fff;
+    }
+
+    section { padding:50px 20px; }
+
+    .features {
+      display:flex;
+      justify-content:center;
+      gap:20px;
+    }
+
+    .box {
+      background:#fff;
+      padding:20px;
+      width:200px;
+      border-radius:6px;
+      cursor: pointer; /* 👈 hand cursor */
+    }
+
+    button {
+      padding:10px 20px;
+      background:#2563eb;
+      color:#fff;
+      border:none;
+      border-radius:5px;
+      cursor: pointer; /* 👈 hand cursor */
+    }
+
+    header button {
+      margin-left:10px;
+      padding:6px 14px;
+      cursor: pointer; /* 👈 hand cursor */
+    }
+
+    .auth {
+      background:#fff;
+      max-width:300px;
+      margin:auto;
+      padding:20px;
+      border-radius:6px;
+    }
+
+    input {
+      width:90%;
+      padding:8px;
+      margin:8px 0;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>MySaaS</h1>
+  <button>Login</button>
+  <button>Sign Up</button>
+</header>
+
+<section>
+  <h2>Everything you need</h2>
+  <p>Simple tools for growing teams.</p>
+  <button>Start Free Trial</button>
+</section>
+
+<section class="features">
+  <div class="box">
+    <h3>Fast</h3>
+    <p>Quick setup.</p>
+  </div>
+  <div class="box">
+    <h3>Secure</h3>
+    <p>Safe data.</p>
+  </div>
+  <div class="box">
+    <h3>Analytics</h3>
+    <p>Track growth.</p>
+  </div>
+</section>
+
+<section class="auth">
+  <h3>Login / Sign Up</h3>
+  <input type="email" placeholder="Email">
+  <input type="password" placeholder="Password">
+  <button>Submit</button>
+</section>
+
+<footer>
+  © 2026 MySaaS
+</footer>
+
+</body>
+</html>
